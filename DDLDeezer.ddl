@@ -31,6 +31,7 @@ CREATE TABLE tbl_artistas (
     nombre_artista VARCHAR2(200) NOT NULL,
     biografia      CLOB,
     url_foto       VARCHAR2(300)
+    fans           NUMBER,
 );
 
 ALTER TABLE tbl_artistas ADD CONSTRAINT tbl_artistas_pk PRIMARY KEY ( codigo_artista );
